@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "author": "UNSW CES workshop",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "esp",
+      "type": "board-esp32-devkit-v1",
+      "top": 40,
+      "left": 260,
+      "attrs": {}
+    },
+    {
+      "id": "oled1",
+      "type": "board-ssd1306",
+      "top": 110,
+      "left": 520,
+      "attrs": {
+        "i2cAddress": "0x3c"
+      }
+    },
+    {
+      "id": "bz1",
+      "type": "wokwi-buzzer",
+      "top": -10,
+      "left": 540,
+      "attrs": {
+        "volume": "0.5"
+      }
+    },
+    {
+      "id": "led1",
+      "type": "wokwi-rgb-led",
+      "top": 290,
+      "left": 580,
+      "attrs": {
+        "common": "cathode"
+      }
+    },
+    {
+      "id": "r1",
+      "type": "wokwi-resistor",
+      "top": 250,
+      "left": 440,
+      "attrs": {
+        "value": "150"
+      }
+    },
+    {
+      "id": "r2",
+      "type": "wokwi-resistor",
+      "top": 285,
+      "left": 440,
+      "attrs": {
+        "value": "47"
+      }
+    },
+    {
+      "id": "r3",
+      "type": "wokwi-resistor",
+      "top": 320,
+      "left": 440,
+      "attrs": {
+        "value": "47"
+      }
+    },
+    {
+      "id": "btn1",
+      "type": "wokwi-pushbutton",
+      "top": 60,
+      "left": 60,
+      "attrs": {
+        "color": "green",
+        "label": "SET",
+        "key": "1"
+      }
+    },
+    {
+      "id": "btn2",
+      "type": "wokwi-pushbutton",
+      "top": 140,
+      "left": 60,
+      "attrs": {
+        "color": "blue",
+        "label": "NEXT",
+        "key": "2"
+      }
+    },
+    {
+      "id": "btn3",
+      "type": "wokwi-pushbutton",
+      "top": 220,
+      "left": 60,
+      "attrs": {
+        "color": "red",
+        "label": "SNOOZE",
+        "key": "3"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX0",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX0",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "oled1:VCC",
+      "esp:3V3",
+      "red",
+      [
+        "v30",
+        "h-60"
+      ]
+    ],
+    [
+      "oled1:GND",
+      "esp:GND.1",
+      "black",
+      [
+        "v40",
+        "h-70"
+      ]
+    ],
+    [
+      "oled1:SDA",
+      "esp:D21",
+      "purple",
+      [
+        "v20",
+        "h-100"
+      ]
+    ],
+    [
+      "oled1:SCL",
+      "esp:D22",
+      "cyan",
+      [
+        "v10",
+        "h-110"
+      ]
+    ],
+    [
+      "bz1:1",
+      "esp:GND.1",
+      "black",
+      [
+        "v200",
+        "h-180"
+      ]
+    ],
+    [
+      "bz1:2",
+      "esp:D23",
+      "brown",
+      [
+        "v10",
+        "h-140"
+      ]
+    ],
+    [
+      "esp:D19",
+      "r1:1",
+      "orange",
+      [
+        "h40",
+        "v100"
+      ]
+    ],
+    [
+      "esp:D18",
+      "r2:1",
+      "green",
+      [
+        "h50",
+        "v110"
+      ]
+    ],
+    [
+      "esp:D4",
+      "r3:1",
+      "blue",
+      [
+        "h60",
+        "v120"
+      ]
+    ],
+    [
+      "r1:2",
+      "led1:R",
+      "orange",
+      []
+    ],
+    [
+      "r2:2",
+      "led1:G",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led1:B",
+      "blue",
+      []
+    ],
+    [
+      "led1:COM",
+      "esp:GND.1",
+      "black",
+      [
+        "v40",
+        "h-300"
+      ]
+    ],
+    [
+      "btn1:1.r",
+      "esp:D25",
+      "gray",
+      []
+    ],
+    [
+      "btn1:2.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "btn2:1.r",
+      "esp:D26",
+      "gray",
+      []
+    ],
+    [
+      "btn2:2.r",
+      "esp:GND.2",
+      "black",
+      []
+    ],
+    [
+      "btn3:1.r",
+      "esp:D27",
+      "gray",
+      []
+    ],
+    [
+      "btn3:2.r",
+      "esp:GND.2",
+      "black",
+      []
+    ]
+  ]
+}

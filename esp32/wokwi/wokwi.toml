@@ -1,0 +1,7 @@
+# Only needed for wokwi-cli / the VS Code extension. On wokwi.com you can ignore this file.
+# Build first in a folder named "sketch" containing sketch.ino + pins.h (arduino-cli names the output after the folder):
+#   arduino-cli compile -b esp32:esp32:esp32doit-devkit-v1 --output-dir build
+[wokwi]
+version = 1
+firmware = 'build/sketch.ino.merged.bin'
+elf = 'build/sketch.ino.elf'

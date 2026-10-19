@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="832.792094pt" height="469.008pt" viewBox="0 0 832.792094 469.008" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T21:45:05.653675</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 469.008 
+L 832.792094 469.008 
+L 832.792094 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 300.171203 433.395 
+L 501.051203 433.395 
+L 501.051203 92.439 
+L 300.171203 92.439 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 54.651203 201.3555 
+L 210.891203 201.3555 
+L 210.891203 172.9425 
+L 54.651203 172.9425 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 54.651203 239.2395 
+L 210.891203 239.2395 
+L 210.891203 210.8265 
+L 54.651203 210.8265 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 54.651203 277.1235 
+L 210.891203 277.1235 
+L 210.891203 248.7105 
+L 54.651203 248.7105 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 590.331203 142.16175 
+L 746.571203 142.16175 
+L 746.571203 118.48425 
+L 590.331203 118.48425 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 590.331203 251.07825 
+L 746.571203 251.07825 
+L 746.571203 172.9425 
+L 590.331203 172.9425 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 634.971203 388.40775 
+L 746.571203 388.40775 
+L 746.571203 279.49125 
+L 634.971203 279.49125 
+z
+" clip-path="url(#pa90368809d)" style="fill: #f4f4f4; stroke: #222222; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="400.611203" y="85.060922" transform="rotate(-0 400.611203 85.060922)">ESP32 DevKit (30-pin)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #444444" x="400.611203" y="447.6015" transform="rotate(-0 400.611203 447.6015)">3.3 V logic, USB at the bottom</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="311.331203" y="189.616773" transform="rotate(-0 311.331203 189.616773)">GPIO25 (D25)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="311.331203" y="227.500773" transform="rotate(-0 311.331203 227.500773)">GPIO26 (D26)</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="311.331203" y="265.384773" transform="rotate(-0 311.331203 265.384773)">GPIO27 (D27)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="311.331203" y="360.094773" transform="rotate(-0 311.331203 360.094773)">GND (GND.2)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="132.790773" transform="rotate(-0 489.891203 132.790773)">GPIO23 (D23)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="189.616773" transform="rotate(-0 489.891203 189.616773)">GPIO22 (D22)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="227.500773" transform="rotate(-0 489.891203 227.500773)">GPIO21 (D21)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="298.533273" transform="rotate(-0 489.891203 298.533273)">GPIO19 (D19)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="336.417273" transform="rotate(-0 489.891203 336.417273)">GPIO18 (D18)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="374.301273" transform="rotate(-0 489.891203 374.301273)">GPIO4 (D4)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="407.449773" transform="rotate(-0 489.891203 407.449773)">GND (GND.1)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="489.891203" y="435.862773" transform="rotate(-0 489.891203 435.862773)">3V3</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="132.771203" y="189.617145" transform="rotate(-0 132.771203 189.617145)">BTN1  SET / mode</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 210.891203 187.149 
+L 300.171203 187.149 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #7a7a7a; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 54.651203 187.149 
+L 32.331203 187.149 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111111" x="28.983203" y="189.616773" transform="rotate(-0 28.983203 189.616773)">GND</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="132.771203" y="227.500773" transform="rotate(-0 132.771203 227.500773)">BTN2  NEXT</text>
+   </g>
+   <g id="line2d_3">
+    <path d="M 210.891203 225.033 
+L 300.171203 225.033 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #7a7a7a; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 54.651203 225.033 
+L 32.331203 225.033 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111111" x="28.983203" y="227.500773" transform="rotate(-0 28.983203 227.500773)">GND</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="132.771203" y="265.384773" transform="rotate(-0 132.771203 265.384773)">BTN3  SNOOZE / stop</text>
+   </g>
+   <g id="line2d_5">
+    <path d="M 210.891203 262.917 
+L 300.171203 262.917 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #7a7a7a; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 54.651203 262.917 
+L 32.331203 262.917 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111111" x="28.983203" y="265.384773" transform="rotate(-0 28.983203 265.384773)">GND</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #444444" transform="translate(74.417453 138.462539)">Buttons: other leg to GND</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #444444" transform="translate(59.235578 149.265)">(INPUT_PULLUP, pressed = LOW)</text>
+   </g>
+   <g id="line2d_7">
+    <path d="M 300.171203 357.627 
+L 277.851203 357.627 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #111111" x="274.503203" y="360.095145" transform="rotate(-0 274.503203 360.095145)">GND (same net as the other GNDs)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="668.451203" y="111.106172" transform="rotate(-0 668.451203 111.106172)">Passive buzzer</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="668.451203" y="132.791145" transform="rotate(-0 668.451203 132.791145)">+ pin</text>
+   </g>
+   <g id="line2d_8">
+    <path d="M 501.051203 130.323 
+L 590.331203 130.323 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #8b5a2b; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 746.571203 130.323 
+L 768.891203 130.323 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="772.239203" y="132.791145" transform="rotate(-0 772.239203 132.791145)">GND (- pin)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="668.451203" y="165.564422" transform="rotate(-0 668.451203 165.564422)">SSD1306 OLED, address 0x3C</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="601.491203" y="189.616773" transform="rotate(-0 601.491203 189.616773)">SCL</text>
+   </g>
+   <g id="line2d_10">
+    <path d="M 501.051203 187.149 
+L 590.331203 187.149 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #17a2b8; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="601.491203" y="227.500773" transform="rotate(-0 601.491203 227.500773)">SDA</text>
+   </g>
+   <g id="line2d_11">
+    <path d="M 501.051203 225.033 
+L 590.331203 225.033 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #8e44ad; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="735.411203" y="232.236273" transform="rotate(-0 735.411203 232.236273)">VCC</text>
+   </g>
+   <g id="line2d_12">
+    <path d="M 746.571203 229.7685 
+L 768.891203 229.7685 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b00000" x="772.239203" y="232.236273" transform="rotate(-0 772.239203 232.236273)">3V3</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end" x="735.411203" y="244.075023" transform="rotate(-0 735.411203 244.075023)">GND</text>
+   </g>
+   <g id="line2d_13">
+    <path d="M 746.571203 241.60725 
+L 768.891203 241.60725 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="772.239203" y="244.075023" transform="rotate(-0 772.239203 244.075023)">GND</text>
+   </g>
+   <g id="line2d_14">
+    <path d="M 501.051203 296.0655 
+L 545.691203 296.0655 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #f28e00; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 590.331203 296.0655 
+L 634.971203 296.0655 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #f28e00; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="646.131203" y="298.533273" transform="rotate(-0 646.131203 298.533273)">R</text>
+   </g>
+   <g id="line2d_16">
+    <path d="M 501.051203 333.9495 
+L 545.691203 333.9495 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 590.331203 333.9495 
+L 634.971203 333.9495 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #2ca02c; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="646.131203" y="336.417273" transform="rotate(-0 646.131203 336.417273)">G</text>
+   </g>
+   <g id="line2d_18">
+    <path d="M 501.051203 371.8335 
+L 545.691203 371.8335 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #1f5fd6; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 590.331203 371.8335 
+L 634.971203 371.8335 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #1f5fd6; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="646.131203" y="374.301273" transform="rotate(-0 646.131203 374.301273)">B</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="690.771203" y="272.113172" transform="rotate(-0 690.771203 272.113172)">RGB LED</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(649.998391 413.757762)">common cathode:</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(655.056672 424.560223)">long leg to GND</text>
+   </g>
+   <g id="line2d_20">
+    <path d="M 501.051203 404.982 
+L 523.371203 404.982 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #111111" x="526.719203" y="407.449773" transform="rotate(-0 526.719203 407.449773)">GND</text>
+   </g>
+   <g id="line2d_21">
+    <path d="M 501.051203 433.395 
+L 523.371203 433.395 
+" clip-path="url(#pa90368809d)" style="fill: none; stroke: #222222; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b00000" x="526.719203" y="435.862773" transform="rotate(-0 526.719203 435.862773)">3V3</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="400.611203" y="21.4065" transform="rotate(-0 400.611203 21.4065)">Alarm clock, ESP32 version: signal wiring</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #444444" x="400.611203" y="35.613" transform="rotate(-0 400.611203 35.613)">wire colours as in WIRING.md; power and ground shown as net labels</text>
+   </g>
+   <g id="line2d_22">
+    <defs>
+     <path id="m41759be4f5" d="M -2.5 2.5 
+L 2.5 2.5 
+L 2.5 -2.5 
+L -2.5 -2.5 
+z
+" style="stroke: #000000; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="300.171203" y="187.149" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_23">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="300.171203" y="225.033" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="300.171203" y="262.917" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="300.171203" y="357.627" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_26">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="130.323" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="187.149" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_28">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="225.033" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_29">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="296.0655" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_30">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="333.9495" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="371.8335" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_32">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="404.982" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="line2d_33">
+    <g clip-path="url(#pa90368809d)">
+     <use xlink:href="#m41759be4f5" x="501.051203" y="433.395" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 545.691203 303.6423 
+L 590.331203 303.6423 
+L 590.331203 288.4887 
+L 545.691203 288.4887 
+z
+" clip-path="url(#pa90368809d)" style="fill: #ffffff; stroke: #222222; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 545.691203 341.5263 
+L 590.331203 341.5263 
+L 590.331203 326.3727 
+L 545.691203 326.3727 
+z
+" clip-path="url(#pa90368809d)" style="fill: #ffffff; stroke: #222222; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 545.691203 379.4103 
+L 590.331203 379.4103 
+L 590.331203 364.2567 
+L 545.691203 364.2567 
+z
+" clip-path="url(#pa90368809d)" style="fill: #ffffff; stroke: #222222; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="568.011203" y="298.273508" transform="rotate(-0 568.011203 298.273508)">150 Ω</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="568.011203" y="336.157508" transform="rotate(-0 568.011203 336.157508)">47 Ω</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="568.011203" y="374.041508" transform="rotate(-0 568.011203 374.041508)">47 Ω</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa90368809d">
+   <rect x="10.011203" y="7.2" width="781.2" height="454.608"/>
+  </clipPath>
+ </defs>
+</svg>
