@@ -1,0 +1,319 @@
+{
+  "version": 1,
+  "author": "UNSW CES workshop",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "bb1",
+      "type": "wokwi-breadboard-half",
+      "top": 0,
+      "left": -40,
+      "attrs": {}
+    },
+    {
+      "id": "uno",
+      "type": "wokwi-arduino-uno",
+      "top": 300,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "id": "led1",
+      "type": "wokwi-rgb-led",
+      "top": 50,
+      "left": 30,
+      "attrs": {
+        "common": "cathode"
+      }
+    },
+    {
+      "id": "r1",
+      "type": "wokwi-resistor",
+      "top": 45,
+      "left": 75,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r2",
+      "type": "wokwi-resistor",
+      "top": 75,
+      "left": 75,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r3",
+      "type": "wokwi-resistor",
+      "top": 105,
+      "left": 75,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "btn1",
+      "type": "wokwi-pushbutton",
+      "top": 150,
+      "left": 20,
+      "attrs": {
+        "color": "green",
+        "label": "HOUR",
+        "key": "1"
+      }
+    },
+    {
+      "id": "btn2",
+      "type": "wokwi-pushbutton",
+      "top": 150,
+      "left": 110,
+      "attrs": {
+        "color": "blue",
+        "label": "MIN",
+        "key": "2"
+      }
+    },
+    {
+      "id": "btn3",
+      "type": "wokwi-pushbutton",
+      "top": 150,
+      "left": 200,
+      "attrs": {
+        "color": "red",
+        "label": "SNOOZE",
+        "key": "3"
+      }
+    },
+    {
+      "id": "bz1",
+      "type": "wokwi-buzzer",
+      "top": 60,
+      "left": 250,
+      "attrs": {
+        "volume": "0.5"
+      }
+    },
+    {
+      "id": "tm1",
+      "type": "wokwi-tm1637-7segment",
+      "top": 20,
+      "left": 400,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "rtc1",
+      "type": "wokwi-ds1307",
+      "top": 380,
+      "left": 340,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "uno:5V",
+      "bb1:tp.1",
+      "red",
+      [
+        "v30",
+        "h-60",
+        "v-210"
+      ]
+    ],
+    [
+      "uno:GND.2",
+      "bb1:tn.1",
+      "black",
+      [
+        "v45",
+        "h-75",
+        "v-225"
+      ]
+    ],
+    [
+      "tm1:CLK",
+      "uno:2",
+      "gold",
+      [
+        "h-40",
+        "v200"
+      ]
+    ],
+    [
+      "tm1:DIO",
+      "uno:4",
+      "white",
+      [
+        "h-30",
+        "v190"
+      ]
+    ],
+    [
+      "tm1:VCC",
+      "bb1:tp.22",
+      "red",
+      [
+        "h-20"
+      ]
+    ],
+    [
+      "tm1:GND",
+      "bb1:tn.22",
+      "black",
+      [
+        "h-10"
+      ]
+    ],
+    [
+      "rtc1:SDA",
+      "uno:A4",
+      "purple",
+      [
+        "v20"
+      ]
+    ],
+    [
+      "rtc1:SCL",
+      "uno:A5",
+      "cyan",
+      [
+        "v30"
+      ]
+    ],
+    [
+      "rtc1:5V",
+      "bb1:tp.25",
+      "red",
+      [
+        "h30",
+        "v-300"
+      ]
+    ],
+    [
+      "rtc1:GND",
+      "bb1:tn.25",
+      "black",
+      [
+        "h40",
+        "v-300"
+      ]
+    ],
+    [
+      "led1:COM",
+      "bb1:tn.3",
+      "black",
+      [
+        "v-20"
+      ]
+    ],
+    [
+      "led1:R",
+      "r1:1",
+      "orange",
+      []
+    ],
+    [
+      "led1:G",
+      "r2:1",
+      "green",
+      []
+    ],
+    [
+      "led1:B",
+      "r3:1",
+      "blue",
+      []
+    ],
+    [
+      "r1:2",
+      "uno:5",
+      "orange",
+      [
+        "h20"
+      ]
+    ],
+    [
+      "r2:2",
+      "uno:6",
+      "green",
+      [
+        "h30"
+      ]
+    ],
+    [
+      "r3:2",
+      "uno:9",
+      "blue",
+      [
+        "h40"
+      ]
+    ],
+    [
+      "btn1:1.l",
+      "uno:10",
+      "gray",
+      [
+        "v10"
+      ]
+    ],
+    [
+      "btn1:2.l",
+      "bb1:tn.8",
+      "black",
+      [
+        "v-10"
+      ]
+    ],
+    [
+      "btn2:1.l",
+      "uno:11",
+      "gray",
+      [
+        "v10"
+      ]
+    ],
+    [
+      "btn2:2.l",
+      "bb1:tn.12",
+      "black",
+      [
+        "v-10"
+      ]
+    ],
+    [
+      "btn3:1.l",
+      "uno:12",
+      "gray",
+      [
+        "v10"
+      ]
+    ],
+    [
+      "btn3:2.l",
+      "bb1:tn.16",
+      "black",
+      [
+        "v-10"
+      ]
+    ],
+    [
+      "bz1:1",
+      "bb1:tn.18",
+      "black",
+      [
+        "v-10"
+      ]
+    ],
+    [
+      "bz1:2",
+      "uno:8",
+      "brown",
+      [
+        "v10"
+      ]
+    ]
+  ]
+}

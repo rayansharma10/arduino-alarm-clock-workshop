@@ -1,0 +1,6 @@
+# Only needed for wokwi-cli / VS Code. On wokwi.com you can ignore this file.
+# Needs firmware built locally (e.g. arduino-cli compile -b arduino:avr:uno --output-dir build)
+[wokwi]
+version = 1
+firmware = 'build/sketch.ino.hex'
+elf = 'build/sketch.ino.elf'
